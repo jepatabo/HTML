@@ -1,0 +1,87 @@
+@import "images.css";
+
+#unicorn{
+    color: red;
+}
+button{
+    background-color: purple;
+    height: 150px;
+    color: white;
+    width: 300px;
+}
+
+.title{
+    font-size: 54px;
+}
+
+#content{
+    font-size: 27px;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+/*Attribute selector*/
+img[alt]{
+    color:red;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Specificity:
+ID takes presidence over the class and type
+Class takes presidence over the type
+Type example h1,
+Class example .class
+ID example #unique 
+The !important to override the specificty evaluation of elements
+
+The Box model
+element, width, height, padding, border margin
+
+The outer display: 
+1. diplay:inline- no width or height space around the text.
+2. display: inline-block- you can add a width or height.
+3. display: block- takes up entire line.
+4. display: none- nothing is displayed.   
+
+z-index:
+Give a 1 to the top, -1 to the one you want to be behind
+
+Absolute units: px, mm, in, cm
+Relative units: %, em (12px = 1em), vw, vh
+
+Typography
+1.text-align
+2.font-size
+3.color
+4.line-height
+5.width
+6.margin: auto;
+7.text-decoration
+
+Fonts
+1.font-family
+2.font-weight: bold;
+3.font-style: italics;
+
+Positioning
+1.static- default
+2.absolute- used the document body or anchestor
+3.relative- is positioned relative to its normal position
+4. fixed- is positioned relative to the viewport. Stays in the same place.
+
+others
+1.border-radius
+2.background-image: url();
+3.background-size: cover or contained;
+*/

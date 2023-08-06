@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Learn Flexbox</title>
+        <meta charset="utf-8">
+        <meta name="decription" content="learn html">
+        <meta name="keywords" content="learn, html">
+        <meta name="author" content="Jean Paul Tabone">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .container{
+                display:flex;
+                flex-direction: column;
+                align-items: stretch;
+                justify-content: space-evenly;
+                border: 2px solid yellow;
+            }
+            .box{
+                width: 250px;
+                height: 150px;
+                border: 1px solid red;
+            }
+            #one{
+                order:3;
+            }
+            #two{
+                order:2;
+            }
+            #three{
+                order:1;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="box" id="one">Box 1</div>
+            <div class="box" id="two">Box 2</div>
+            <div class="box" id="three">Box 3</div>
+        </div>
+    </body>
+    </html>
